@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    color: #fff !important;
+    background-color: #282828 !important;
+    background-image: url(https://toktok.fun/wp-content/uploads/2023/12/Inserir-um-titulo-14.png);
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+}
+
+section.header {
+    padding: 25px 30px;
+}
+
+section.header .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 6%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #FDF4F4;
+    border-radius: 10px;
+}
+
+.saldo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.saldo h5 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.saldo span {
+    font-size: 35px;
+}
+
+section.cards {
+    padding: 0 30px;
+}
+
+.card {
+    color: #000;
+    border: 1px solid #ff000081 !important;
+    text-align: center;
+    border-radius: 10px !important;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.textFreeLicense {
+    font-size: 17px;
+}
+
+.recompensa25 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardRecompensa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 30px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cardRecompensa p {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.recompensa25 img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.container-btn-start {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-start {
+    font-family: "Poppins",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #04bb05;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,.26);
+    padding: 10px 40px;
+    color: #fff;
+}
+
+.btn-start:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #04bb04ce;
+}
+
+section.cards-videos {
+    padding: 0 30px;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.video-container img {
+    width: 100%;
+}
+
+.container-like p {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.container-btn-like {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.btn-like {
+    width: 130px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #04bb05;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,.26);
+    padding: 10px 0;
+    color: #fff !important;
+}
+
+.btn-like:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #04bb04ce;
+}
+
+
+.btn-dislike {
+    width: 130px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #B40000;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,.26);
+    padding: 10px 0;
+    color: #fff !important;
+}
+
+.btn-dislike:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #b40000c9;
+}
+
+section.cards-ganhou {
+    padding: 0 30px;
+    padding-bottom: 50px;
+}
+
+.cards-ganhou .card {
+    color: #000;
+    border: 1px dashed #ff000081 !important;
+    text-align: center;
+    border-radius: 10px !important;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 50px;
+    font-size: 24px;
+    background-color: #B40000;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.saldoTotal {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: transparent;
+    background-image: linear-gradient(155deg,#b40000a6 0%,#B40000 100%);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.saldoTotal b {
+    font-size: 40px;
+}
+
+.container-dolar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dolar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px;
+    border: 4px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.btn-assistir {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #04bb05;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,.26);
+    padding: 20px;
+    color: #fff !important;
+}
+
+.btn-assistir:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #04bb04ce;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px rgba(4, 187, 5, 0.7); /* Inicializa com um box-shadow */
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(4, 187, 5, 0.9); /* Aumenta o box-shadow pela metade da animação */
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(4, 187, 5, 0.7); /* Retorna ao box-shadow inicial */
+    }
+}
+
+.container-btn-assistir .btn-assistir {
+    animation: pulse 1.5s infinite; /* Altere a duração conforme necessário */
+}
+
+footer {
+    border-top: 1px solid #B40000;
+    text-align: center;
+    padding: 20px;
+}
+
+.first {
+    padding-bottom: 20px;
+}
+
+.first p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.second h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.second p {
+    font-size: 14px;
+}
+
+.second p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
